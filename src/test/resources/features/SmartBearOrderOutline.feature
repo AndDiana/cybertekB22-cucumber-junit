@@ -1,7 +1,7 @@
 
 
 Feature: SmartBear
-  @smoke
+  @smoke @regression
   Scenario Outline: SmartBear order process
     Given User is on SmartBear login page
     When User enters correct username and password
