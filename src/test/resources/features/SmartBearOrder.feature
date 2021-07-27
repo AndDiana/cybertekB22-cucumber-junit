@@ -1,7 +1,7 @@
 Feature: Smart Bear order
 
   User Story : As a user I should be able to login to Smart Bear website and place an order successfully
-
+@smoke
   Scenario: Verify order
     Given User is on SmartBear login page
     When User enters correct username and password
